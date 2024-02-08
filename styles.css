@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
   }
   #box {
     position: relative;
@@ -346,7 +347,7 @@ body {
     height: 65%;
     width: 100%;
     border-radius: 50%;
-    background: #a6d785;
+    background: black;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -358,139 +359,3 @@ body {
   .wrapper:hover #egg {
     animation: none;
   }
-  .daisy {
-    border-top: 2px solid #3cb371;
-    border-left: 2px solid #3cb371;
-    border-top-left-radius: 300px;
-    border-top-right-radius: 300px;
-    -moz-transform: scale(-1, 1);
-    -webkit-transform: scale(-1, 1);
-    -o-transform: scale(-1, 1);
-    -ms-transform: scale(-1, 1);
-    transform: scale(-1, 1);
-    width: 5%;
-    height: 17%;
-    position: absolute;
-    z-index: 1;
-  }
-  #daisy1 {
-    bottom: 30%;
-    left: 30%;
-  }
-  #daisy2 {
-    bottom: 35%;
-    left: 20%;
-  }
-  #daisy3 {
-    bottom: 40%;
-    left: 27%;
-    z-index: 0;
-  }
-  #daisy4 {
-    bottom: 25%;
-    left: 62%;
-  }
-  #daisy5 {
-    bottom: 35%;
-    left: 67%;
-  }
-  .daisy .core {
-    border-radius: 50%;
-    height: 17%;
-    width: 40%;
-    background: #fff500;
-    left: 60%;
-    position: absolute;
-    z-index: 1;
-  }
-  .daisy .petal {
-    border-radius: 50%;
-    height: 17%;
-    width: 40%;
-    position: absolute;
-    z-index: 0;
-    box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.25);
-  }
-  .petal1 {
-    left: 20%;
-  }
-  .petal2 {
-    left: 100%;
-  }
-  .petal3 {
-    left: 80%;
-    top: 16%;
-  }
-  .petal4 {
-    left: 40%;
-    top: 16%;
-  }
-  .petal5 {
-    left: 80%;
-    top: -15%;
-  }
-  .petal6 {
-    left: 40%;
-    top: -15%;
-  }
-  .daisy1petal-colour {
-    background: #e855bd;
-  }
-  
-  .daisy2petal-colour {
-    background: #FF7F50;
-  }
-  
-  .daisy3petal-colour {
-    background: #ff2a71;
-  }
-  .daisy4petal-colour {
-    background: #fff;
-  }
-  .daisy5petal-colour {
-    background: #8d85d7;
-  }
-  #grass {
-    border-radius: 50%;
-    height: 60%;
-    z-index: -1;
-    width: 60%;
-    background: #a6d785;
-    position: absolute;
-    top: 30%;
-    left: 15%;
-  }
-  #grass .hair {
-    width: 5%;
-    height: 10%;
-    position: absolute;
-  }
-  #grass .hair .light-green {
-    background: #a6d785;
-  }
-  #grass .hair .dark-green {
-    background: #a6d785;
-  }
-  #grass .grass1 {
-    top: -5%;
-  }
-  #grass .grass2 {
-    top: 10%;
-    left: 80%;
-  }
-  #grass .hair .dark-green {
-    background: #3cb371;
-  }
-  #grass .grass3 {
-    top: 93%;
-    left: 40%;
-  }
-  #grass .grass4 {
-    top: 80%;
-    left: 76%;
-  }
-  #grass .grass5 {
-    top: 82%;
-    left: 15%;
-  }
-  
